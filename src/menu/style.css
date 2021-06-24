@@ -1,0 +1,11 @@
+.wrapper .navbar-brand {
+  display: inline-block;
+  float: none;
+  margin: 0;
+}
+.navbar-brand .logo{
+  width: 30px;
+}
+.bi-list{
+  font-size: 2em;
+}
