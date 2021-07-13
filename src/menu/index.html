@@ -9,20 +9,20 @@
   <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link href="./style.css" rel="stylesheet">
-  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <div class="wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="wrapper" id="home">
+    <nav class="navbar navbar-wrapper navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#brand">
-          <img src="../images/logo.png" class="logo" alt="logo">
-        </a>
-        <button class="navbar-toggler navbar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="navbar-head">
+          <a class="navbar-brand" href="#brand">
+            <img src="../images/logo.png" class="logo" alt="logo">
+          </a>
+          <button class="navbar-toggler navbar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
@@ -31,16 +31,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#blog">Blog</a>
@@ -54,11 +46,163 @@
     </nav>
     <div class="banner">
       <div class="container">
-          <h2 class="title">带滚动监听的导航菜单</h2>
-          <p class="subtitle">Navigation menu with scrollspy</p>
+        <h2 class="title">带滚动监听的导航菜单</h2>
+        <p class="subtitle">Navigation menu with scrollspy</p>
+      </div>
+    </div>
+    <div id="about" class="section">
+      <div class="container">
+        <!-- Start Heading -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="heading">
+              <h3 class="title">23种Bootstrap导航菜单布局设计jQuery插件</h3>
+              <p>
+                Start your project with bootsnav, and build your best navigation menu.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Heading -->
+        <!-- Start Menu -->
+        <div class="row" id="features">
+          <div class="col-md-12">
+            <h6>Custom Navigation Menu</h6>
+            <ol class="menu-demo">
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-right.html">Navbar Menu Right</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-center.html">Navbar Menu Center</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-left.html">Navbar Menu Left</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-dropdown.html">Navbar Dropdown</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-megamenu.html">Navbar Megamenu</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-attr.html">Navbar Atributes</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-shop.html">Navbar Shopping Chart</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-search.html">Navbar Search</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-menu-side.html">Navbar Side Menu</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-default.html">Navbar Default</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-brand-center.html">Navbar Center</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-brand-center-alt2.html">Navbar Center Alt2</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-mobile-slide.html">Navbar Mobile Slide</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-full.html">Navbar Full</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-sidebar.html">Navbar Sidebar</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-brand-top.html">Navbar Brand Top</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-sticky.html">Navbar Sticky</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-scrollspy.html">Navbar Scrollspy</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-scrollspy-sidebar.html">Navbar Scrollspy Sidebar</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-fixed-alt1.html">Navbar Fixed alt1</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-fixed-alt2.html">Navbar Fixed alt2</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-fixed-alt3.html">Navbar Fixed alt3</a>
+              </li>
+              <li class="col-md-4 col-sm-6">
+                <a href="nav-fixed-alt4.html">Navbar Fixed alt4</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="blog" class="section gray">
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p class="marginbot-clear">
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+      </div>
+    </div>
+    <div id="contact" class="section">
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
+        <p class="marginbot-clear">
+          Lorem ipsum dolor sit amet, vix diam nusquam at. Ex usu labitur nostrud invenire, eos option senserit adversarium in. Est id falli debitis, no novum saperet complectitur mei. Id dictas feugiat deserunt sea, nam te possim gubergren vulputate, eu pro discere officiis. Sit legimus erroribus eu, vel numquam reprehendunt signiferumque eu. Te eam aeque maiorum, pri ad dicta vitae. Expetenda repudiare assentior ut eam, usu ea malis possit quaerendum. Eos idque senserit constituto ut.
+        </p>
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../../node_modules/stickUp/build/js/stickUp.min.js"></script>
+  <script type="text/javascript">
+  jQuery(function($) {
+    $(document).ready(function() {
+      $('.navbar-wrapper').stickUp({
+        parts: {
+          0: 'home',
+          1: 'about',
+          2: 'features',
+          3: 'blog',
+          4: 'Contact'
+        },
+        itemClass: 'nav-item',
+        itemHover: 'active',
+        topMargin: 'auto'
+      });
+    });
+  });
+  </script>
 </body>
 
 </html>

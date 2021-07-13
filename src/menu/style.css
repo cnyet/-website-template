@@ -1,13 +1,17 @@
+.navbar{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 .navbar .navbar-btn {
   font-size: 14px;
 }
 .navbar-brand .logo{
   width: 2em;
 }
-.bi-list{
-  font-size: 2em;
-}
 .banner{
+  margin-top: 3.5em;
   padding: 70px 0;
   background-image: url(../images/brick-wall-dark.png);
   background-color: #f43438;
@@ -35,12 +39,14 @@
 .navbar-light .navbar-nav .nav-link.active {
   color: #f43438;
 }
-
 @media screen and (max-width: 992px) {
   .navbar .container {
     display: block;
     text-align: center;
     justify-content: flex-start;
+  }
+  .banner{
+    margin-top: 3em;
   }
   .navbar .navbar-brand .logo {
     width: 1.5em;
