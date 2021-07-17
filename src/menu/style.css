@@ -36,7 +36,7 @@
   padding: 0 .5em;
   font-weight: 500;
 }
-.navbar-light .navbar-nav .nav-link.active {
+.nav-item.active .nav-link {
   color: #f43438;
 }
 @media screen and (max-width: 992px) {
